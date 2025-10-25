@@ -1,6 +1,6 @@
 /* ========================= Typing animation ========================= */
 var typed = new Typed(".typing",{
-    strings:["","Développeur web","Intégrateur web","Webmaster"],
+    strings:["","Développeur web","Intégrateur web"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
@@ -110,3 +110,4 @@ const langEn = document.querySelector(".lang-en");
         langEn.classList.remove("active");
         langFr.classList.add("active");
       })
+
